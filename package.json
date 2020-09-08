@@ -1,0 +1,27 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "App",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Sambit",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.1",
+    "electron-builder": "^22.8.0"
+  },
+  "dependencies": {
+    "builder": "^5.0.0",
+    "packager": "^0.1.9"
+  },
+  "build": {
+    "appId": "com.sambit.abc",
+    "win": {
+      "target": "nsis"
+    }
+  }
+}

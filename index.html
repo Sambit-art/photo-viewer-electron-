@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1 {
+      display: block;
+      width: fit-content;
+      margin: 10px auto;
+    }
+
+    .center img {
+      height: 550px;
+      width: 550px;
+    }
+
+    .imgdiv {
+      height: fit-content;
+      width: fit-content;
+      margin: 20px auto;
+    }
+
+    .mybtn {
+      background: gold;
+      border: none;
+      border-radius: 6px;
+      height: 30px;
+      width: 60px;
+      margin-top: 10px;
+      box-shadow: 2px 2px 2px 2px rgb(226 222 222 / 92%);
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="item">Hello World!</h1>
+  <div class="center">
+
+    <div class="imgdiv">
+      <img class="image" id="myimg" src="" alt="">
+      <div class="buttongrp">
+        <button class="mybtn" id="valincrease" style="float:right">Forward</button>
+        <button class="mybtn" id="valdecrease">Back</button>
+
+        <span id="img-no" style="margin-left: 200px;">01</span>
+
+      </div>
+    </div>
+
+  </div>
+  <script src="./renderer.js"></script>
+</body>
+
+</html>
